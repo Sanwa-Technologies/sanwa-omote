@@ -39,3 +39,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# --- JetBrains (WebStorm, GoLand) ---
+.idea/
+*.iws
+*.iml
+*.ipr
+# Opcional: Si quieres compartir configuraciones de ejecución específicas de Sanwa,
+# podrías des-comentar lo siguiente:
+# !.idea/runConfigurations/

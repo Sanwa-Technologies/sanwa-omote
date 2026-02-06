@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sanwa Omote (三和表)
 
-## Getting Started
+![Project Status](https://img.shields.io/badge/Status-Active_Development-success?style=flat-square)
+![Tech Stack](https://img.shields.io/badge/Stack-Next.js_16_|_Tailwind_v4-000000?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
-First, run the development server:
+> **"The public interface of Sanwa Monozukuri. Harmonizing Technology, Design, and Management."**
+
+This repository contains the source code for the official corporate website of **Sanwa Technologies**, a high-end software architecture and digital transformation firm based in Villa Gobernador Gálvez, Argentina.
+
+## 🏯 Philosophy
+
+The architecture of this project reflects our core philosophy of **Triple Harmony**:
+
+* **Gijutsu (Technology):** Built on the bleeding edge (Next.js 16, React Server Components).
+* **Sekkei (Design):** A proprietary "Zen-Tech" aesthetic using deep dark modes and glassmorphism.
+* **Kanri (Management):** Clean code architecture, strict typing, and scalable folder structures.
+
+## 🛠️ Tech Stack
+
+Engineered for performance and scalability:
+
+* **Framework:** [Next.js 16](https://nextjs.org/) (App Router)
+* **Styling:** [Tailwind CSS v4](https://tailwindcss.com/) (CSS-first configuration)
+* **Language:** [TypeScript](https://www.typescriptlang.org/)
+* **Typography:** [Geist Sans & Mono](https://vercel.com/font)
+* **Icons:** [Lucide React](https://lucide.dev/)
+* **Motion:** CSS Native Animations & Framer Motion
+* **Deployment:** Vercel / Cloudflare Edge
+
+## ⚡ Key Features
+
+* **Dark Mode Elite:** A custom `#0a0a0a` palette designed to reduce eye strain and enhance focus.
+* **Smart Business Logic:** Real-time business hour detection (Argentina Timezone) for customer support components.
+* **Bento Grid Layout:** Modern, asymmetrical presentation of services (Sora, Hajime, Irodori, Shinka).
+* **Performance First:** Zero layout shift, optimized images, and Turbopack development build.
+
+## 📂 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+sanwa-omote/
+├── src/
+│   ├── app/                # Next.js App Router & Layouts
+│   ├── components/
+│   │   ├── layout/         # Navbar, Footer
+│   │   ├── sections/       # Hero, BentoGrid, TechStack
+│   │   └── ui/             # Atomic components (Buttons, Cards)
+│   ├── lib/                # Utilities & Constants
+│   └── styles/             # Global CSS & Tailwind Theme
+└── public/                 # Static Assets
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To run the Triple Harmony engine locally:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/Sanwa-Technologies/sanwa-omote.git](https://github.com/Sanwa-Technologies/sanwa-omote.git)
+    ```
 
-## Learn More
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4.  Open [http://localhost:3000](http://localhost:3000) with your browser.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤝 Contact
 
-## Deploy on Vercel
+**Sanwa Technologies**
+* **Director:** [director@sanwamz.com](mailto:director@sanwamz.com)
+* **Location:** Villa Gobernador Gálvez, Santa Fe, Argentina.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2026 Sanwa Technologies. Code released under the MIT License. Brand assets are proprietary.
