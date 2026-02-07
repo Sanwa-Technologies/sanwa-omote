@@ -41,6 +41,10 @@
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth; /* <--- ESTA LÍNEA ES MÁGICA */
+  }
+
   :root {
     --background: var(--color-sanwa-dark);
     --foreground: var(--color-sanwa-oyster);

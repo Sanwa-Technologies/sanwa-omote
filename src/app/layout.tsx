@@ -18,9 +18,11 @@ const geistMono = Geist_Mono({
 // Metadatos del sitio (Vital para SEO y presencia profesional)
 export const metadata: Metadata = {
     title: "Sanwa Monozukuri | Identidad Digital & Arquitectura de Software",
-    description: "Consultoría estratégica de software, diseño y gestión para la transformación digital. Desde Villa Gobernador Gálvez al mundo.",
+    description: "Consultoría estratégica de software, diseño y gestión. Excelencia técnica desde Villa Gobernador Gálvez al mundo.",
+    // CAMBIO AQUÍ: Apuntamos al nuevo SVG
     icons: {
-        icon: "/favicon.ico", // Asegúrate de tener un favicon en /public en el futuro
+        icon: "/icon.svg", // Next.js detecta automáticamente que es un SVG
+        // apple: "/apple-icon.png", // (Opcional para el futuro)
     },
 };
 
