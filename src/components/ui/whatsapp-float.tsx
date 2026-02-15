@@ -5,7 +5,7 @@ import Link from "next/link"
 import { cn } from "@/lib/utils"
 
 export function WhatsAppFloat() {
-    const phoneNumber = "5493410000000" // Tu número real
+    const phoneNumber = "5493417186701" // Tu número real
 
     // Estado para controlar si estamos "Abiertos" o "Cerrados"
     // null inicial para evitar problemas de hidratación (flickering)
